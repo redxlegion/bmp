@@ -1,0 +1,19 @@
+Skin Name: ClearSky
+
+Original Author: Will Reinhart
+
+Authors Note: Based on the clearlooks-deepsky GTK2 and metacity theme, using 
+Green with Envy as a template.  
+
+Thanks to: Richard Stellingwerff (remenic @ gmail . com) for Clearlooks, 
+and Lokheed @ gmail . com for Green with Envy
+
+0.8:
+More font tweaking
+Added peaks to spectrum analyzer
+Fixed minus sign in countdown mode
+
+0.7:
+Made window borders more consistent between main window, playlist and EQ.
+Manual font hinting in PL/EQ buttons
+Re-made NUMBERS.BMP with vera sans to be more consistent with other text

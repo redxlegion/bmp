@@ -1,0 +1,22 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+data_dir=${prefix}/share/bmp
+
+version=0.9.7.1
+include_dir=${prefix}/include
+beep_include_dir=${prefix}/include
+lib_dir=${exec_prefix}/lib
+
+plugin_dir=${exec_prefix}/lib/bmp
+input_plugin_dir=${exec_prefix}/lib/bmp/Input
+output_plugin_dir=${exec_prefix}/lib/bmp/Output
+general_plugin_dir=${exec_prefix}/lib/bmp/General
+visualization_plugin_dir=${exec_prefix}/lib/bmp/Visualization
+effect_plugin_dir=${exec_prefix}/lib/bmp/Effect
+
+Name: BMP
+Description: BMP Is a versatile and handy multi platform media player
+Version: 0.9.7.1
+Requires: glib-2.0 >= 2.4.0, gtk+-2.0 >= 2.4.0
+Libs: -L${lib_dir} -lbeep
+Cflags: -I${beep_include_dir}
